@@ -1,0 +1,41 @@
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  margin: 10rem;
+}
+
+.header {
+  margin-bottom: 1rem;
+  color: #14464b;
+  font-family: "Nanum Pen Script", cursive;
+  font-size: 2rem;
+
+  .header-title {
+    font-size: 4rem;
+  }
+}
+
+.tagline {
+  color: #5a9697;
+}
+
+.todo-item {
+  .custom-control-label {
+    color: #14464b;
+    display: block;
+    font-family: "Nanum Pen Script", cursive;
+    font-size: 1.7rem;
+
+    &.done {
+      text-decoration: line-through;
+    }
+  }
+}
+
+.icon-remove {
+  color: #5a9697;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
